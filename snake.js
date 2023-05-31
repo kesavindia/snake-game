@@ -1,7 +1,7 @@
 const gameboard=document.getElementById("gameboard");
 const context= gameboard.getcontext("2d")
 const scoreText= document.querySelector('#scoreVal');
-const Width=gameboard.width;
+const Width=gameboard.width
 const Height=gameboard.height;
 const UNIT= 20;
 let foodX;
