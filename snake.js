@@ -118,7 +118,6 @@ function keyPress(event){
             xVel=0;
             yVel=UNIT;
             break;
-
     }
 }
 
