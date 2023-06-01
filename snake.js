@@ -6,7 +6,7 @@ const Height=gameboard.height;
 const UNIT= 20;
 let foodX;
 let foodY;
-let xVel=20;
+let xVel=UNIT;
 let yVel=0;
 let Score=0;
 scoreText.textContent=Score;
