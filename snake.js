@@ -72,7 +72,7 @@ function nextTick(){
         context.font = "bold 50px serif";
         context.fillStyle = "white";
         context.textAlign = "center";
-        context.fillText("Game Over!!",WIDTH/2,HEIGHT/2)
+        context.fillText("Game Over!!",Width/2,Height/2)
     }
 }
 
