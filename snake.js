@@ -1,5 +1,5 @@
 const gameboard=document.getElementById("gameboard");
-const context= gameboard.getcontext("2d")
+const context= gameboard.getContext("2d")
 const scoreText= document.querySelector('#scoreVal');
 const Width=gameboard.width
 const Height=gameboard.height;
@@ -27,7 +27,7 @@ function startGame(){
 function clearBoard(){
     context.fillStyle="#212121"
     //fillRect(xStart,yStart,width,height)
-    fillRect(0,0,Width,Height)
+    context.fillRect(0,0,Width,Height)
 }
 function createFood(){
     foodX = Math.floor(Math.random()*Width/UNIT)*UNIT;
