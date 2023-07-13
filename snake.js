@@ -70,6 +70,8 @@ function nextTick(){
             nextTick();
         }, 200);
     }
+else if(paused){
+	context.fillText("Press space to restart!",Width/2,Height/2) }
     else {
         clearBoard();
         context.font = "bold 50px serif";
