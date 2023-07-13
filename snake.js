@@ -1,5 +1,6 @@
 const gameboard=document.getElementById("gameboard");
 const Restart=document.getElementById("Enter");
+const Pause=document.getElementById("");
 const context= gameboard.getContext("2d")
 const scoreText= document.querySelector('#scoreVal');
 const Width=gameboard.width
