@@ -72,7 +72,7 @@ function nextTick(){
     }
 else if(paused){
 	clearBoard();
-        context.font = "bold 50px serif";
+        context.font = "bold 30px serif";
         context.fillStyle = "white";
         context.textAlign = "center";
 	context.fillText("Press space to restart!",Width/2,Height/2)
