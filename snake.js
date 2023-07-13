@@ -1,6 +1,6 @@
 const gameboard=document.getElementById("gameboard");
 const Restart=document.getElementById("Enter");
-const Pause=document.getElementById("");
+const Pause=document.getElementById("Space");
 const context= gameboard.getContext("2d")
 const scoreText= document.querySelector('#scoreVal');
 const Width=gameboard.width
@@ -101,6 +101,7 @@ function keyPress(event){
         }
         else{
             paused = true;
+		Space.textContent='Press spacebar to restart again'
         }
     }
     const LEFT = 37
