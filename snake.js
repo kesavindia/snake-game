@@ -101,7 +101,7 @@ function keyPress(event){
         }
         else{
             paused = true;
-	      context.fillText = ("Press spacebar to restart again",Width/2,Height/2)   
+	     
         }
     }
     const LEFT = 37
